@@ -5,6 +5,19 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "prop-types": "^15.7.2",
+    "redux-devtools": "^3.7.0",
+    "redux-devtools-extension": "^2.13.9",
     "snowpack": "^3.3.7"
+  },
+  "dependencies": {
+    "i18next": "^20.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
   }
 }
