@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "local": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "prop-types": "^15.7.2",
     "redux-devtools": "^3.7.0",
     "redux-devtools-extension": "^2.13.9",
-    "snowpack": "^3.3.7"
+    "snowpack": "^3.8.3"
   },
   "dependencies": {
     "i18next": "^20.3.5",
