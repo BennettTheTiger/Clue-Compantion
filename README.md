@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
@@ -22,3 +23,7 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+=======
+# Clue-Compantion
+A simple react based clue sheet
+>>>>>>> 4dcf73da6965a06dffcc747080d584585561d61b
