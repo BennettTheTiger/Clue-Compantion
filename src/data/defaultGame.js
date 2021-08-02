@@ -1,8 +1,8 @@
-import { ENTITY_TYPES } from '../data/constants';
+import { ENTITY_TYPES, ENTITIES } from '../data/constants';
 
 export const DEFAULT_GAME = {
     title: "Classic Mystery Game",
-    entities: {
+    [ENTITIES]: {
         [ENTITY_TYPES.PLACE]: [
             { name: 'ballroom', type: ENTITY_TYPES.PLACE },
             { name: 'conservatory', type: ENTITY_TYPES.PLACE },

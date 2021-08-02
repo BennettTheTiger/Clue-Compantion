@@ -1,18 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import EntityGroup from '../../components/entityGroup/EntityGroup';
-
 import './scorecard.scss';
 
 const ScoreCard = (props) => {
-    const {gameData: { title, entities }} = props;
+    const {gameData: { title, ENTITIES }} = props;
 
     const renderEntities = () => {
-        return Object.keys(entities).map(entityType => {
+        return Object.keys(ENTITIES).map(entityType => {
             return <EntityGroup
                 key={`entity-group-${entityType}`}
                 type={entityType}
-                options={entities[entityType]}
+                options={ENTITIES[entityType]}
             />
         })
     }
@@ -28,14 +27,14 @@ const ScoreCard = (props) => {
 ScoreCard.propTypes = {
     gameData: PropTypes.shape({
         title: PropTypes.string,
-        entities: PropTypes.shape({})
+        ENTITIES: PropTypes.shape({})
     })
 }
 
 ScoreCard.defaultProps = {
     gameData: {
         title: 'Welcome',
-        entities: {}
+        ENTITIES: {}
     }
 }
 

@@ -1,9 +1,16 @@
 .entity-item {
-    display: flex;
-    flex-grow: 1 0 0;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto 70px 70px;
     align-items: center;
     min-height: 30px;
     padding: 10px;
     border-bottom: 1px solid #999;
+
+    .entity-name {
+        text-decoration: line-through;
+
+        &.elegible {
+            text-decoration: none;
+        }
+    }
 }

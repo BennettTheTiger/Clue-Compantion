@@ -1,0 +1,1 @@
+export const TOGGLE_ELEGIBLE = 'toggle_elegible';

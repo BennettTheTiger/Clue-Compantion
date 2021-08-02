@@ -1,7 +1,8 @@
 // Entity Types
-export const PERSON = 'person';
-export const PLACE = 'place';
-export const WEAPON = 'weapon';
+export const PERSON = 'PERSON';
+export const PLACE = 'PLACE';
+export const WEAPON = 'WEAPON';
+export const ENTITIES = 'ENTITIES';
 
 export const ENTITY_TYPES = {
     PERSON,
